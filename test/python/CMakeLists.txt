@@ -1,0 +1,4 @@
+add_test(NAME python-tests
+  COMMAND pytest ${CMAKE_CURRENT_SOURCE_DIR}
+  WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+)
